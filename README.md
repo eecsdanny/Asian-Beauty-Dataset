@@ -22,6 +22,6 @@ The dataset will be provided as image url links since there's copyright and prov
 You can easily download and process it with simple python script.
 
 ### Example
-1. download [/download_image.py], [/img_url_history.csv] and [/face_crop.py] to your host device
-2. put 3 files in the same folder and run [/download_image.py]
-3. (optional)use [/face_crop.py] to crop the faces down, so that the dataset only contains faces.
+1. download [download_image.py](/download_image.py), [img_url_history.csv](/img_url_history.csv) and [face_crop.py](/face_crop.py) to your host device
+2. put 3 files in the same folder and run [download_image.py](/download_image.py)
+3. (optional)use [face_crop.py](/face_crop.py) to crop the faces down, so that the dataset only contains faces.
