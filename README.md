@@ -16,12 +16,12 @@ The dataset is scraped down by the following standard
 3. posts that must have imgur link inside to exclude some news or other link posts that must handle case by case.
 ### Cons
 1. some of the data may come from a concern troll post.
-
+2. The dataset may contain some faces that are'nt Asian but most of the data are Asian, so don't worry.
 ## Usage
 The dataset will be provided as image url links since there's copyright and provicy problems.
 You can easily download and process it with simple python script.
 
 ### Example
-1. download [], [] and [] to your host device
-2. 
-3. (optional)use [] to crop the faces down, so that the dataset only contains faces.
+1. download [/download_image.py], [/img_url_history.csv] and [/face_crop.py] to your host device
+2. put 3 files in the same folder and run [/download_image.py]
+3. (optional)use [/face_crop.py] to crop the faces down, so that the dataset only contains faces.
